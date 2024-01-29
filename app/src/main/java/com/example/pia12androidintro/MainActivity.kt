@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         var mintext = findViewById<TextView>(R.id.fancytext)
-        mintext.text = "Apelsin"
+        mintext.text = "Banan"
 
         var minknapp = findViewById<Button>(R.id.fancyButton)
         minknapp.setOnClickListener {
